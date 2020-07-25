@@ -1,0 +1,16 @@
+{
+    "name": "kubeecms/forms-post",
+    "description": "Allows you to create new posts through Forms.",
+    "keywords": ["kubee", "kubeecms", "forms", "post", "forms-post"],
+    "homepage": "https://github.com/kubeecms/forms-post",
+    "authors": [
+      {
+        "name": "Kubee CMS",
+        "homepage": "https://github.com/KubeeCMS/"
+      }
+    ],
+    "type": "wordpress-plugin",
+    "require": {
+      "php": ">=7.2"
+    }
+  }
