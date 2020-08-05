@@ -1,3 +1,7 @@
+### 1.0-beta-4.3
+- Fixed a JavaScript error with WordPress 5.5 which prevents the taxonomy settings rendering correctly.
+
+
 ### 1.0-beta-4.2
 - Fixed an issue where pending and draft posts created via the add-on do not have the correct post creation date when the date mappings are used in the post creation feed.
 

@@ -41,7 +41,8 @@ var GFTaxonomyMap = function( options ) {
 
 	self.setupData = function() {
 
-		self.data = jQuery.parseJSON( jQuery( '#' + self.options.fieldId ).val() );
+		var data = jQuery( '#' + self.options.fieldId ).val();
+		self.data = data ? jQuery.parseJSON( data ) : null;
 
 		if ( ! self.data ) {
 			self.data = [ {
