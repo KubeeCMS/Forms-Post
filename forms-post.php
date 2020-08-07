@@ -28,7 +28,7 @@
 
 defined( 'ABSPATH' ) || die();
 
-define( 'GF_ADVANCEDPOSTCREATION_VERSION', '1.0' );
+define( 'GF_ADVANCEDPOSTCREATION_VERSION', '1.0-beta-5' );
 
 // If Gravity Forms is loaded, bootstrap the Advanced Post Creation Add-On.
 add_action( 'gform_loaded', array( 'GF_PostCreation_Bootstrap', 'load' ), 5 );
